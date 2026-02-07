@@ -24,7 +24,7 @@ def build(env, self, html: HTMLWriter):
 
 	html.heading(3, "Can I contribute to the current Cornerlight issue?");
 	html.start_text_block();
-	html.text("Yes! Please fill out the page request form outlined above.");
+	html.text("Yes! Please fill out the page request form linked above.");
 	html.text("Understand that if you submit a page request, you will be expected to submit your pages by the volume's release date.");
 	html.text("As such, you should not try to get pages in a volume that is a week or less away from release unless you already have the work done.");
 	html.end_text_block();
