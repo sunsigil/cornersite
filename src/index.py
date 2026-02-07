@@ -9,7 +9,6 @@ def build(env, self, html: HTMLWriter):
 	html.heading(2, "Announcements");
 	html.heading(4, "February's theme is \"Express Delivery\". All contributors will be granted exactly one page, regardless of how many they request.");
 	html.text("For now, this is an internal site. Please do not share it with people outside of Cornerlight.");
-	html.text("We are currently working on volume 6 and accepting page requests for volume 7.");
 
 	html.heading(2, "Links");
 	html.link("Interest Form", "https://docs.google.com/forms/d/e/1FAIpQLSeF3szRpMJT9puLkjm_bSyRpTZ3o3xtk9ZjpDnJlCY9T3g6NQ/viewform?usp=header");
