@@ -13,7 +13,7 @@ def build(env, self, html: HTMLWriter):
 	html.heading(2, "Links");
 	html.link("Request Pages", "https://docs.google.com/forms/d/e/1FAIpQLSeF3szRpMJT9puLkjm_bSyRpTZ3o3xtk9ZjpDnJlCY9T3g6NQ/viewform?usp=header");
 	html.newline();
-	html.link("Submit Pages", "https://docs.google.com/forms/d/e/1FAIpQLSeF3szRpMJT9puLkjm_bSyRpTZ3o3xtk9ZjpDnJlCY9T3g6NQ/viewform?usp=header");
+	html.link("Submit Pages", "https://docs.google.com/forms/d/e/1FAIpQLSfU96vZGqH4TOw9QKj5Loech_nhg3g7pcJNct4cbpyNPBd2vA/viewform?usp=header");
 	html.newline();
 	html.link("Drive", "https://drive.google.com/drive/folders/1A6tQIlEG87xxfs52wX-tnvT1XVfzIZtP?usp=drive_link");
 	html.newline();
