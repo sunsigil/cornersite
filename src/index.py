@@ -7,6 +7,7 @@ def build(env, self, html: HTMLWriter):
 	html.newline();
 
 	html.heading(2, "Announcements");
+	html.heading(4, "February's theme is \"Express Delivery\". All contributors will be granted exactly one page, regardless of how many they request.");
 	html.text("For now, this is an internal site. Please do not share it with people outside of Cornerlight.");
 	html.text("We are currently working on volume 6 and accepting page requests for volume 7.");
 
@@ -22,15 +23,15 @@ def build(env, self, html: HTMLWriter):
 
 	html.heading(2, "FAQ");
 
-	html.heading(3, "Can I contribute to the current Cornerlight issue?");
+	html.heading(4, "Can I contribute to the current Cornerlight issue?");
 	html.start_text_block();
 	html.text("Yes! Please fill out the page request form linked above.");
 	html.text("Understand that if you submit a page request, you will be expected to submit your pages by the volume's release date.");
 	html.text("As such, you should not try to get pages in a volume that is a week or less away from release unless you already have the work done.");
 	html.end_text_block();
 
-	html.heading(3, "How should I submit my pages?");
+	html.heading(4, "How should I submit my pages?");
 	html.text("Please upload them via the submission form linked above. One file per page is ideal.");
 
-	html.heading(3, "What file format is best for submissions?");
+	html.heading(4, "What file format is best for submissions?");
 	html.text("Anything that is commonly accepted by software that normal people use. PDF is great, PNG is great, JPG is great. Nothing too weird please.");
