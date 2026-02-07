@@ -7,6 +7,7 @@ def build(env, self, html: HTMLWriter):
     html.newline();
 
     html.text("For now, this is an internal site. Please do not share it with people outside of Cornerlight.");
+    html.text("We are currently working on Volume 6. The theme is \"New Year\".");
 
     html.link("Drive", "https://drive.google.com/drive/folders/1A6tQIlEG87xxfs52wX-tnvT1XVfzIZtP?usp=drive_link");
     html.newline();
