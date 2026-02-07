@@ -9,7 +9,9 @@ def build(env, self, html: HTMLWriter):
     html.text("For now, this is an internal site. Please do not share it with people outside of Cornerlight.");
 
     html.link("Drive", "https://drive.google.com/drive/folders/1A6tQIlEG87xxfs52wX-tnvT1XVfzIZtP?usp=drive_link");
+    html.newline();
     html.link("Interest Form", "https://docs.google.com/forms/d/e/1FAIpQLSeF3szRpMJT9puLkjm_bSyRpTZ3o3xtk9ZjpDnJlCY9T3g6NQ/viewform?usp=header");
+    html.newline();
     html.link("Submission Form", "https://docs.google.com/forms/d/e/1FAIpQLSeF3szRpMJT9puLkjm_bSyRpTZ3o3xtk9ZjpDnJlCY9T3g6NQ/viewform?usp=header");
     html.newline();
     html.link("Itch", "https://sunsigil.itch.io/cornerlight");
