@@ -8,6 +8,7 @@ def build(env, self, html: HTMLWriter):
 
 	html.heading(2, "Announcements");
 	html.text("For now, this is an internal site. Please do not share it with people outside of Cornerlight.");
+	html.newline();
 	html.text("We are currently working on Volume 6. The theme is \"New Year\".");
 	html.newline();
 
