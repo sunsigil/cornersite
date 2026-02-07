@@ -4,7 +4,6 @@ from html_writer import HTMLWriter, HTMLMode;
 
 def build(env, self, html: HTMLWriter):
 	html.heading(1, "Cornerlight Home Page");
-	html.newline();
 
 	html.heading(2, "Announcements");
 	html.heading(4, "February's theme is \"Express Delivery\". All contributors will be granted exactly one page, regardless of how many they request.");
